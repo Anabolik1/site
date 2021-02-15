@@ -1,0 +1,20 @@
+import logo from './logo.svg';
+import './App.css';
+import {Button} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./Component/Header";
+import Footer from "./Component/Footer";
+import { BrowserRouter } from 'react-router-dom';
+import Main from "./Pages/Main";
+
+
+function App() {
+  return (
+    <div >
+      <Header/>
+      <Footer/>
+    </div>
+  );
+}
+
+export default App;
