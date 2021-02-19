@@ -9,9 +9,10 @@ class Actions extends React.Component{
     fetchUsers = () => {
         Axios.get('http://localhost/api/php-response/all-users.php')
         .then(({data}) => {
+
             if(data.success === 1){
                 this.setState({
-                    users:data.users.reverse()
+                    users:data.people.reverse()
                 });
             }
         })

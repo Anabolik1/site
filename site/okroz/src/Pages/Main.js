@@ -8,10 +8,10 @@ import lake from '../Photo/lake.jpg';
 import restzone from '../Photo/restzone.jpg';
 import parking from '../Photo/parking.jpg';
 import view from '../Photo/view.jpg';
-
 import sayna from '../Photo/sayna.jpg';
 import Cards from '../Component/Cards';
 import ContactMap from '../Component/ContactMap';
+import ShedulePrice from '../Component/ShedulePrice'
 export default class Main extends Component{
 
     render(){
@@ -20,6 +20,7 @@ export default class Main extends Component{
            
            <Slider photo1={Kort} photo2={Vb} photo3={lake} photo4={restzone} photo5={parking} photo6={view} />
            <Cards/>
+           
            <ContactMap/>
           
              

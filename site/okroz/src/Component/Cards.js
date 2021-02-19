@@ -37,7 +37,7 @@ export default class Cards extends Component{
                               <Card.Text>
                                  <p> hello its my web site nice to meet you lets go folow me and improve yiurself web developing its eazy</p>
                                 </Card.Text>
-                                <a href='services#t' > <Button  variant ="outline-danger">Детальніше</Button></a>
+                                <a href='services#services' > <Button  variant ="outline-danger">Детальніше</Button></a>
                          
                       </Card.Body>
                   </Card>
@@ -51,7 +51,7 @@ export default class Cards extends Component{
                                  
                 
                               </Card.Text>
-                              <a href='services#t' > <Button  variant ="outline-danger">Детальніше</Button></a>
+                              <a href='services#services' > <Button  variant ="outline-danger">Детальніше</Button></a>
                          
                       </Card.Body>
                       
@@ -68,7 +68,7 @@ export default class Cards extends Component{
                                   
                 
                               </Card.Text>
-                              <a href='services#t' > <Button  variant ="outline-danger">Детальніше</Button></a>
+                              <a href='services#services' > <Button  variant ="outline-danger">Детальніше</Button></a>
                       
                       </Card.Body>
                       
@@ -83,7 +83,7 @@ export default class Cards extends Component{
                                   
                 
                               </Card.Text>
-                              <a href='services#t' > <Button  variant ="outline-danger">Детальніше</Button></a>
+                              <a href='services#services' > <Button  variant ="outline-danger">Детальніше</Button></a>
                       
                       </Card.Body>
                       

@@ -5,6 +5,7 @@ import Main from '../Pages/Main';
 import Services from '../Pages/Services';
 import Partners from '../Pages/Partners';
 import Contacts from '../Pages/Contacts';
+import Login from '../Pages/Login';
 import Admin from '../Pages/Admin';
 
 import { FaPhoneAlt} from 'react-icons/fa';
@@ -28,12 +29,13 @@ export default class Header extends Component {
                             <Nav.Link href={"/services"} className="header">Послуги</Nav.Link>     
                             <Nav.Link href={"/contacts"} className="header">Контакти</Nav.Link>
                             <Nav.Link href={"/partners"}    className="header">Партнери</Nav.Link>
+                            <Nav.Link href={"/admin"}    className="header">Парт</Nav.Link>
                             
                            </Nav>
                             <Nav.Item className=" m-2 " > 
                             <FaPhoneAlt /> +380673652496 </Nav.Item>
                           
-                            <Nav.Link href={"/admin"}  className="header "> <button type="button" className="btn btn-danger " >Admin</button></Nav.Link>
+                           
                     </Navbar.Collapse>
                     </Container>
 
@@ -46,6 +48,7 @@ export default class Header extends Component {
                         <Route  path="/contacts" component={Contacts} />
                         <Route  path="/partners" component={Partners} />
                         <Route  path="/admin" component={Admin} />
+                   
                       
                     </Switch>
                  </Router>

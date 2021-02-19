@@ -4,6 +4,7 @@ class GetUsers extends Component{
     static contextType = AppContext;
 
     componentDidMount(){
+        console.log(this.context);
         this.context.get_users();
     }
 
